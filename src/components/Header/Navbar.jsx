@@ -1,19 +1,16 @@
 import { useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Link } from "react-router-dom";
 import { FcHerbalsLogo } from "./FcHerbalsLogo";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-    const handleLogoClick = () => {
-    // e.g. navigate to homepage
-    window.location.href = "/";
-  };
 
   const navLinks = [
     { name: "HOME", href: "/" },
     { name: "PRODUCTS", href: "/products" },
     { name: "ABOUT", href: "/about" },
-    { name: "CONTACT", href: "#" },
+    { name: "CONTACT", href: "/contact" },
   ];
 
   return (
@@ -22,13 +19,13 @@ export default function Navbar() {
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center space-x-8 bg-white/70 backdrop-blur-md px-8 py-2 rounded-full shadow-md mx-auto">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.name}
-              href={link.href}
+              to={link.href}
               className="text-[#4d2600] font-extralight tracking-wide hover:text-[#7a4800] transition-colors duration-200"
             >
               {link.name}
-            </a>
+            </Link>
           ))}
         </div>
 
@@ -48,9 +45,7 @@ export default function Navbar() {
           </button>
 
           {/* Right side Logo */}
-         <>
-         <FcHerbalsLogo/>
-         </>
+          <FcHerbalsLogo />
         </div>
       </div>
 
@@ -59,13 +54,14 @@ export default function Navbar() {
         <div className="md:hidden px-4 pb-4 bg-white/90 backdrop-blur-md shadow-lg rounded-b-lg">
           <div className="flex flex-col items-center space-y-4 py-4">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
-                href={link.href}
+                to={link.href}
+                onClick={() => setMenuOpen(false)} // close menu on click
                 className="text-[#4d2600] font-semibold tracking-wide hover:text-[#7a4800] transition-colors duration-200"
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
