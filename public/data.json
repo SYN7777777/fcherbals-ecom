@@ -1,0 +1,50 @@
+ [
+  {
+    "id": 1,
+    "name": "FC Hair Oil",
+    "price": 260,
+    "image": "/assets/hairoil.jpeg",
+    "description": "Nourishes scalp, prevents hair fall, and promotes healthy hair growth.",
+    "volume": "200ml"
+  },
+  {
+    "id": 2,
+    "name": "Beetroot Lip Balm",
+    "price": 50,
+    "image": "/assets/lipbalm.jpeg",
+    "description": "Lightens lips, removes tan, smooth and moisturizes.",
+    "volume": "5gm"
+  },
+  {
+    "id": 3,
+    "name": "FC Herbal Bath Powder",
+    "price": 220,
+    "image": "/assets/bathpowder.jpeg",
+    "description": "Detox, skin brightening, improves skin health and softness.",
+    "volume": "200gm"
+  },
+  {
+    "id": 4,
+    "name": "FC Manjistha Face Brightening Oil",
+    "price": 150,
+    "image": "/assets/serum.jpeg",
+    "description": "Brightens face, reduces blemishes, and gives glowing skin.",
+    "volume": "30ml"
+  },
+  {
+    "id": 5,
+    "name": "FC Seeyakai Powder",
+    "price": 220,
+    "image": "/assets/seeyakai.jpeg",
+    "description": "Cleanses scalp, promotes hair growth, controls dandruff.",
+    "volume": "200gm"
+  },
+  {
+    "id": 6,
+    "name": "FC Herbal Napkin",
+    "price": 60,
+    "image": "/assets/napkins.jpeg",
+    "description": "Soft, chemical-free sanitary napkin for everyday use.",
+    "volume": "1 pack"
+  }
+]
