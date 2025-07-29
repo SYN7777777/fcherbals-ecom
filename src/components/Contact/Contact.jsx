@@ -2,9 +2,9 @@ import { MailIcon, PhoneIcon, MapIcon } from "@heroicons/react/outline";
 
 export default function Contact() {
   return (
-    <section className="min-h-screen bg-gradient-to-b from-emerald-50 via-white to-amber-50 py-12 px-4 md:px-10">
+    <section className="min-h-screen bg-gradient-to-b  from-emerald-50 via-white to-amber-50 py-12 sm:py-32 px-4 md:px-10">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-emerald-800 mb-6">
+        <h2 className="text-3xl uppercase md:text-4xl font-bold text-center text-emerald-800 mb-6">
           Contact Us
         </h2>
         <p className="text-center text-gray-600 mb-10">
