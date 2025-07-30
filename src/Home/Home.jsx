@@ -1,3 +1,4 @@
+import HeroBanner from "../components/Banner/HeroBanner"
 import HerbalBanner from "../components/Banner/HeroBanner"
 import ProductList from "../components/Products/ProductsList"
 import Testimonials from "../components/Testimonials"

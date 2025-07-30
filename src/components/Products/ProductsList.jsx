@@ -65,7 +65,7 @@ export default function ProductList() {
           <div className="text-center mb-16 md:mb-20"> {/* Adjusted margin-bottom */}
             <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-6 py-2 border border-lime-200 shadow-sm mb-4 rounded-full"> {/* Border color, shadow, rounded-full */}
               <Sparkles className="w-5 h-5 text-lime-600" /> {/* Icon color */}
-              <span className="font-inter font-semibold text-lime-800 uppercase tracking-widest text-sm">Premium Collection</span> {/* Font, color */}
+              <span className="font-inter font-thin text-lime-800 uppercase tracking-widest text-sm">Premium Collection</span> {/* Font, color */}
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-playfair-display font-black text-transparent bg-gradient-to-r from-green-800 via-lime-700 to-emerald-700 bg-clip-text mb-4 leading-tight tracking-wider drop-shadow-sm"> {/* Updated gradient, font, shadow */}
               Our Exquisite Products
